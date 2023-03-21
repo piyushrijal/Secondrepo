@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-font-smotthong:antialiased;
+}
+body{
+      background-color: rgb(231, 224, 224);
+}
+/*css for nav open */
+
+
+.whole{
+    padding: 0 15px;
+}
+
+header{
+    background-color: rgb(182, 218, 182);
+    height: 14%;
+}
+.nav{
+    font-size: 25px;
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin:0 auto;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+   
+}
+.logo{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+.nav a{
+    margin-right: 3rem;
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: blue;
+}
+.contact-btn{
+    background: rgb(156, 190, 219);
+    border-radius: 80px;
+    font-weight: bold;
+    padding:10px 10px;
+    cursor:pointer;
+    font-size: 15px;
+}
+.contact-btn:hover{
+    background-color: rgb(201, 201, 230);
+}
+
+
+ /*css for nav close*/
+
+
+ /** css for user details open*/
+.user-details{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 2rem;
+    gap:3rem;
+}
+.details h1{
+    font-size:60px;
+    color:black;
+    padding-bottom:15px;
+    padding-top: 13%;
+}
+.details p{
+    line-height: 25px;
+    text-align: justify;
+    font-size:25px;
+    color: black;
+    margin: 5px;
+}
+.image img{
+    border: 5px solid #555;
+}
+
+
+/*css for user details closed */
+
+
+/*  css for parent1 open*/
+
+
+.parent1{
+    display:flex;
+    margin-top: 5rem;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+.exp-parent{
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(182, 218, 182);
+}
+.year{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.exp{
+    font-size: 1rem;
+    font-weight: 200;
+
+}
+.proj-parent{
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(182, 218, 182);
+}
+.num{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.num-det{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.client-parent{
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(182, 218, 182);
+}
+.client-num{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.happy{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
+/*css for parent1closed*/
+
+
+/*css for about details open*/
+.about-details{
+        display: flex;
+        justify-content: space-around;
+        margin:70px 36px;
+        margin-bottom:4rem;
+        height:50vh;
+        gap:5rem;
+}
+
+.about p{
+    color: black;
+    line-height: 25px;
+    text-align: justify;
+    font-size:25px;
+    padding-right: 28px;
+    line-height: 25px;
+}
+.about h1{
+    font-size:40px;
+    color:black;
+    margin-top:5rem;
+    padding-bottom: 1.5rem;
+}
+.img2{
+    margin-left: 45px;
+    border: 5px solid #555;
+}
+
+
+/*css  for about details closed*/
+
+
+/* css for main started*/
+
+
+.main{
+    display: flex;
+    margin: 15rem 5.5rem;
+    text-align: justify;
+    gap:10rem;
+}
+.do h1{
+      font-size: 2rem;
+      padding-bottom: 1rem;
+}
+.do p{
+    font-size: 25px;
+    text-align: justify;
+    line-height: 25px;
+}
+.box p{
+    font-size: 25px;
+    text-align: justify;
+    line-height: 25px;
+}
+.box div{
+    font-size: 20px;
+    font-weight:450; 
+    padding:2rem;
+    margin-bottom: 1rem;
+    max-width: 500rem;
+    background-color: rgb(182, 218, 182);
+    border-radius: 5px;
+    padding-left: 2rem;
+}
+.do{
+    margin-top: 12rem;
+}
+
+
+/*css for main closed*/
+
+/*css for footer started*/
+
+
+
+.footer {
+    text-align: center;
+    background-color: rgb(182, 218, 182);
+}
+.links li{
+    color:rgb(8, 9, 9);
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 20px;
+}
+.footer p{
+    margin-bottom: 1rem;
+}
+/*css for footer closed*/
+
+
+/*working for responsive*/
+
+
+@media screen and (max-width:820px) {
+    header{
+        height: 7%;
+    }
+
+    .user-details{
+        height: 50vh;
+        display: block;
+        justify-content: space-around;
+        /* margin-left: 70px;
+        margin-right: 70px; */
+        margin-top: -4rem;
+    }
+
+    .parent1{
+        /* display:flex; */
+        margin-top: 15rem;
+        /* gap: 1rem;
+        margin-bottom: 3rem;
+        margin-left: 5rem; */
+    }
+
+
+}
+
+
+
+
+
+
+
+
